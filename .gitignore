@@ -1,0 +1,19 @@
+.env
+.venv/
+data/
+__pycache__/
+*.pyc
+*.sqlite3*
+admin-password.txt
+.coverage
+
+# Keep all local credentials, databases and delivery drafts private.
+.env.*
+!.env.example
+*.db
+*.db-*
+*.log
+*.zip
+*.bak
+docs/SUBMISSION_DRAFT.md
+docs/FREE_HOSTING.md
